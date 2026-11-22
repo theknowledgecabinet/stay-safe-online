@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Stay Safe Online evening briefing</title>
+  <link>https://theknowledgecabinet.github.io/stay-safe-online/podcast/</link>
+  <atom:link href="https://theknowledgecabinet.github.io/stay-safe-online/podcast.xml" rel="self" type="application/rss+xml"/>
+  <description>Every evening: the online scams, data breaches and updates that matter, in plain English, with what to do.</description>
+  <language>en-gb</language>
+  <image><url>https://theknowledgecabinet.github.io/stay-safe-online/assets/podcast-cover.jpg</url><title>Stay Safe Online evening briefing</title><link>https://theknowledgecabinet.github.io/stay-safe-online/</link></image>
+  <itunes:image href="https://theknowledgecabinet.github.io/stay-safe-online/assets/podcast-cover.jpg"/>
+  <itunes:author>Stay Safe Online</itunes:author>
+  <itunes:category text="Technology"/>
+  <itunes:explicit>false</itunes:explicit>
+  <itunes:type>episodic</itunes:type>
+  <item>
+    <title>Sunday 22 November 2026</title>
+    <link>https://theknowledgecabinet.github.io/stay-safe-online/podcast/</link>
+    <guid isPermaLink="false">stay-safe-online-briefing-2026-11-22</guid>
+    <pubDate>Sun, 22 Nov 2026 19:00:00 +0000</pubDate>
+    <description>The day&#x27;s scams, breaches and updates, and what to do about them.</description>
+    <enclosure url="https://theknowledgecabinet.github.io/stay-safe-online/assets/podcast/2026-11-22.mp3" length="4013324" type="audio/mpeg"/>
+    <itunes:duration>1003</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+</channel>
+</rss>
