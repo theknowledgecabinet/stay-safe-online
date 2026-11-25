@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en-GB" data-site="friendly">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fake Google Sheets extension steals Gmail messages · Stay Safe Online</title>
+<meta name="description" content="A piece of malware is installing a fake Google Sheets add-on in Chrome to read Gmail messages from Windows computers.">
+<meta name="theme-color" content="#fff4e6">
+<link rel="icon" type="image/png" sizes="32x32" href="/stay-safe-online/assets/icon-32.png">
+<link rel="apple-touch-icon" href="/stay-safe-online/assets/icon-180.png">
+<link rel="manifest" href="/stay-safe-online/manifest.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="Stay Safe Online" href="/stay-safe-online/feed.xml">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Stay Safe Online">
+<meta property="og:title" content="Fake Google Sheets extension steals Gmail messages">
+<meta property="og:description" content="A piece of malware is installing a fake Google Sheets add-on in Chrome to read Gmail messages from Windows computers.">
+<meta property="og:url" content="https://theknowledgecabinet.github.io/stay-safe-online/2026/11/25/fake-google-sheets-extension-steals-gmail-messages/">
+<meta property="og:image" content="https://theknowledgecabinet.github.io/stay-safe-online/assets/media/205/share.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="/stay-safe-online/assets/site.css">
+<script src="/stay-safe-online/assets/site.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="masthead">
+  <div class="wrap bar">
+    <a class="brand" href="/stay-safe-online/"><img src="/stay-safe-online/assets/icon-192.png" alt="" width="36" height="36"><span>Stay Safe Online</span></a>
+    <div class="tools"><a class="search-link" href="/stay-safe-online/search/">Search</a><button class="theme-toggle" type="button" aria-label="Switch light or dark">◐</button></div>
+  </div>
+  <nav class="wrap sections" aria-label="Sections"><a href="/stay-safe-online/section/scams/">Scams and fraud</a><a href="/stay-safe-online/section/breaches/">Data breaches</a><a href="/stay-safe-online/section/updates/">Updates to install</a><a href="/stay-safe-online/section/advice/">Advice and guidance</a><a href="/stay-safe-online/podcast/">Podcast</a></nav>
+</header>
+<main id="main" class="wrap">
+<article class="story">
+<a class="pill" style="--c:#c2410c" href="/stay-safe-online/section/scams/">Scams and fraud</a>
+<h1>Fake Google Sheets extension steals Gmail messages</h1>
+<p class="standfirst">A piece of malware is installing a fake Google Sheets add-on in Chrome to read Gmail messages from Windows computers.</p>
+<p class="dateline"><time datetime="2026-11-25T16:02:09+00:00">Wednesday 25 November 2026, 4.02pm</time></p>
+<figure class="hero"><img src="/stay-safe-online/assets/media/205/large.webp" srcset="/stay-safe-online/assets/media/205/card.webp 480w, /stay-safe-online/assets/media/205/large.webp 1200w" sizes="(min-width: 900px) 760px, 100vw" width="1200" height="800" alt="Ghostly sheet steals data from a keyboard" decoding="async"><figcaption>AI-generated illustration</figcaption></figure>
+<section class="happened"><h2>What happened</h2><p>Researchers at Gen Digital have identified a new feature in malware called Remus Stealer. It silently installs a fake Google Sheets extension in Google Chrome on Windows computers. This add-on runs in the background and reads new emails from users who are already signed in to Gmail.</p><p>The extension sends the sender, subject, and body of messages to an attacker-controlled server. It checks for unread mail roughly once a minute. Because it reads mail from inside the browser, it does not need to steal your login cookies to work. Researchers found no evidence that it uses a security flaw in Gmail itself.</p><p>You can spot this fake add-on by checking your Chrome extensions page. Look for a Google Sheets card marked as &#x27;unpacked&#x27; and a Developer Mode switch that you did not turn on. The fake extension borrows the description of the legitimate Google Docs Offline tool but has no spreadsheet interface.</p><p>If you change your password while the extension is still installed, it can keep reading your mail using your new login. This makes the theft look like it survived a password reset. The malware developers claim it works even after users revoke their sessions, but researchers say you must remove the software to stop it.</p></section>
+<section class="box affected"><h2>Am I affected?</h2><p>The sources say this affects Windows users who have the Remus Stealer malware installed and are signed in to Gmail in Chrome. You can check your Chrome extensions page for a Google Sheets add-on marked as &#x27;unpacked&#x27; or a Developer Mode switch you did not enable.</p></section>
+<section class="box todo"><h2>What to do</h2><ul class="ticks"><li>Check your Chrome extensions page for a Google Sheets add-on marked as &#x27;unpacked&#x27; or a Developer Mode switch you did not turn on.</li><li>Isolate the affected computer from the network if you suspect an infection.</li><li>Revoke your Gmail sessions and change your passwords from a clean, safe device before signing back in.</li><li>Have the underlying malware infection investigated and removed by a professional or security tool.</li></ul></section>
+<section class="sources"><h2>Where this comes from</h2><ul><li><a href="https://cybersecuritynews.com/remus-stealer/" rel="noopener">Cyber Security News</a></li></ul>
+<p class="checked">Every fact here was checked against these sources before we published it.</p></section>
+</article>
+</main>
+<footer class="wrap foot">
+  <p class="sister">For the technical detail, see <a href="https://theknowledgecabinet.github.io/threat-desk/">Threat Desk</a></p>
+  <p>Stay Safe Online: Scams, breaches and online safety, in plain English. Written by AI models running at home from official advisories and named news sources, and fact-checked against them by a second model before publication. <a href="/stay-safe-online/about/">How it works</a> · <a href="/stay-safe-online/feed.xml">RSS</a> · <a href="/stay-safe-online/podcast.xml">Podcast feed</a> · Part of <a href="https://theknowledgecabinet.github.io/">The Knowledge Cabinet</a></p>
+</footer>
+</body>
+</html>
