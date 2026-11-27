@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en-GB" data-site="friendly">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dell fixes critical flaw in network switch software · Stay Safe Online</title>
+<meta name="description" content="Dell has released a fix for a serious security weakness in its Enterprise SONiC software that could allow attackers to run commands on network switches.">
+<meta name="theme-color" content="#fff4e6">
+<link rel="icon" type="image/png" sizes="32x32" href="/stay-safe-online/assets/icon-32.png">
+<link rel="apple-touch-icon" href="/stay-safe-online/assets/icon-180.png">
+<link rel="manifest" href="/stay-safe-online/manifest.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="Stay Safe Online" href="/stay-safe-online/feed.xml">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Stay Safe Online">
+<meta property="og:title" content="Dell fixes critical flaw in network switch software">
+<meta property="og:description" content="Dell has released a fix for a serious security weakness in its Enterprise SONiC software that could allow attackers to run commands on network switches.">
+<meta property="og:url" content="https://theknowledgecabinet.github.io/stay-safe-online/2026/11/27/dell-fixes-critical-flaw-in-network-switch-software/">
+<meta property="og:image" content="https://theknowledgecabinet.github.io/stay-safe-online/assets/media/341/share.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="/stay-safe-online/assets/site.css">
+<script src="/stay-safe-online/assets/site.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="masthead">
+  <div class="wrap bar">
+    <a class="brand" href="/stay-safe-online/"><img src="/stay-safe-online/assets/icon-192.png" alt="" width="36" height="36"><span>Stay Safe Online</span></a>
+    <div class="tools"><a class="search-link" href="/stay-safe-online/search/">Search</a><button class="theme-toggle" type="button" aria-label="Switch light or dark">◐</button></div>
+  </div>
+  <nav class="wrap sections" aria-label="Sections"><a href="/stay-safe-online/section/scams/">Scams and fraud</a><a href="/stay-safe-online/section/breaches/">Data breaches</a><a href="/stay-safe-online/section/updates/">Updates to install</a><a href="/stay-safe-online/section/advice/">Advice and guidance</a><a href="/stay-safe-online/podcast/">Podcast</a></nav>
+</header>
+<main id="main" class="wrap">
+<article class="story">
+<a class="pill" style="--c:#0f766e" href="/stay-safe-online/section/updates/">Updates to install</a>
+<h1>Dell fixes critical flaw in network switch software</h1>
+<p class="standfirst">Dell has released a fix for a serious security weakness in its Enterprise SONiC software that could allow attackers to run commands on network switches.</p>
+<p class="dateline"><time datetime="2026-11-27T16:00:22+00:00">Friday 27 November 2026, 4.00pm</time></p>
+<figure class="hero"><img src="/stay-safe-online/assets/media/341/large.webp" srcset="/stay-safe-online/assets/media/341/card.webp 480w, /stay-safe-online/assets/media/341/large.webp 1200w" sizes="(min-width: 900px) 760px, 100vw" width="1200" height="800" alt="Fact card: CVE-2026-103782" decoding="async"><figcaption>Fact card drawn from the NVD and CISA records</figcaption></figure>
+<section class="happened"><h2>What happened</h2><p>Dell Technologies has patched a critical flaw in its Enterprise SONiC Distribution software. The issue, tracked as CVE-2026-103782, allows a remote attacker with limited privileges to run commands of their choice on an affected network switch. It can also expose files and directories the attacker is not authorised to access.</p><p>The vulnerability affects software versions before 4.6.1. Dell disclosed the issue on 19 November 2026 and assigned it a CVSS score of 9.9 out of 10. The advisory describes the possible impact of an attack but does not say that the flaw has been exploited. The National Vulnerability Database classifies the flaw as argument injection, which happens when software does not properly handle input.</p><p>Dell lists several PowerSwitch platforms in the advisory, including the E3200-ON series, N3200-ON, S3248T-ON, and S5248F-ON. Administrators should check the installed SONiC version on each switch rather than rely on the hardware model alone. Dell notes that its affected-products table may not cover every supported version and could change as more information becomes available.</p><p>Dell recommends upgrading affected systems to version 4.6.1. The Dell security advisory DSA-2026-451 links to the update and points customers to Dell My Account for downloads. Before upgrading, back up each switch configuration and plan how to restore service if the update fails. Afterward, confirm the installed version and check that the switch is passing expected traffic.</p></section>
+<section class="box affected"><h2>Am I affected?</h2><p>The sources say this affects Dell Enterprise SONiC Distribution software versions prior to 4.6.1. It specifically lists PowerSwitch platforms such as the E3200-ON series, N3200-ON, S3248T-ON, and S5248F-ON. You should check the installed SONiC version on your switches to see if you are affected.</p></section>
+<section class="box todo"><h2>What to do</h2><ul class="ticks"><li>Check the installed SONiC version on your network switches to see if it is before 4.6.1.</li><li>Upgrade affected systems to version 4.6.1 using the update linked in Dell security advisory DSA-2026-451.</li><li>Back up each switch configuration before upgrading and plan how to restore service if the update fails.</li><li>If the update has to wait, limit management access to trusted networks and review which accounts can manage the switches.</li></ul></section>
+<section class="sources"><h2>Where this comes from</h2><ul><li><a href="https://cybersecuritynews.com/critical-dell-enterprise-sonic-flaw/" rel="noopener">Cyber Security News</a></li><li><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-103782" rel="noopener">Official record for CVE-2026-103782 (NVD, CISA)</a></li></ul>
+<p class="checked">Every fact here was checked against these sources before we published it.</p></section>
+</article>
+</main>
+<footer class="wrap foot">
+  <p class="sister">For the technical detail, see <a href="https://theknowledgecabinet.github.io/threat-desk/">Threat Desk</a></p>
+  <p>Stay Safe Online: Scams, breaches and online safety, in plain English. Written by AI models running at home from official advisories and named news sources, and fact-checked against them by a second model before publication. <a href="/stay-safe-online/about/">How it works</a> · <a href="/stay-safe-online/feed.xml">RSS</a> · <a href="/stay-safe-online/podcast.xml">Podcast feed</a> · Part of <a href="https://theknowledgecabinet.github.io/">The Knowledge Cabinet</a></p>
+</footer>
+</body>
+</html>
